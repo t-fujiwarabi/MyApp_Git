@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92654C6619CC59997B989DDC /* Pods_MyColorMemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63A87674026370AD250A644 /* Pods_MyColorMemoApp.framework */; };
+		9418B0252BB3AFE100865211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B0242BB3AFE100865211 /* AppDelegate.swift */; };
+		9418B0272BB3AFE100865211 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B0262BB3AFE100865211 /* SceneDelegate.swift */; };
+		9418B02C2BB3AFE100865211 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9418B02B2BB3AFE100865211 /* Base */; };
+		9418B02E2BB3AFE200865211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9418B02D2BB3AFE200865211 /* Assets.xcassets */; };
+		9418B0312BB3AFE200865211 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9418B0302BB3AFE200865211 /* Base */; };
+		9418B03C2BB3AFE200865211 /* MyColorMemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B03B2BB3AFE200865211 /* MyColorMemoAppTests.swift */; };
+		9418B0462BB3AFE200865211 /* MyColorMemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B0452BB3AFE200865211 /* MyColorMemoAppUITests.swift */; };
+		9418B0482BB3AFE200865211 /* MyColorMemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B0472BB3AFE200865211 /* MyColorMemoAppUITestsLaunchTests.swift */; };
+		9418B0552BB3B2AB00865211 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B0542BB3B2AB00865211 /* HomeViewController.swift */; };
+		9418B0572BB9985000865211 /* MemoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B0562BB9985000865211 /* MemoDataModel.swift */; };
+		9418B0592BBAE9E700865211 /* MemoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B0582BBAE9E700865211 /* MemoDetailViewController.swift */; };
+		9483FAC22C45614300FBEEA7 /* MyColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9483FAC12C45614300FBEEA7 /* MyColorType.swift */; };
+		D03C47DB9FB966C97FB7D5C5 /* Pods_MyColorMemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC909CAA61625612886D8E94 /* Pods_MyColorMemoAppTests.framework */; };
+		F5A6321CFEB5CFFFA9532C89 /* Pods_MyColorMemoApp_MyColorMemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620B3BF2CB275AA34AF7FEAC /* Pods_MyColorMemoApp_MyColorMemoAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9418B0382BB3AFE200865211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9418B0192BB3AFE100865211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9418B0202BB3AFE100865211;
+			remoteInfo = MyColorMemoApp;
+		};
+		9418B0422BB3AFE200865211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9418B0192BB3AFE100865211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9418B0202BB3AFE100865211;
+			remoteInfo = MyColorMemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04546341F161CA78A1F0A070 /* Pods-MyColorMemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyColorMemoAppTests.release.xcconfig"; path = "Target Support Files/Pods-MyColorMemoAppTests/Pods-MyColorMemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		620B3BF2CB275AA34AF7FEAC /* Pods_MyColorMemoApp_MyColorMemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyColorMemoApp_MyColorMemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFFA77CE88A987E35816BAD /* Pods-MyColorMemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyColorMemoApp.release.xcconfig"; path = "Target Support Files/Pods-MyColorMemoApp/Pods-MyColorMemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		90DC1E7C3FBBF0751BB82D8F /* Pods-MyColorMemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyColorMemoApp.debug.xcconfig"; path = "Target Support Files/Pods-MyColorMemoApp/Pods-MyColorMemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9418B0212BB3AFE100865211 /* MyColorMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyColorMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9418B0242BB3AFE100865211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9418B0262BB3AFE100865211 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9418B02B2BB3AFE100865211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9418B02D2BB3AFE200865211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9418B0302BB3AFE200865211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9418B0322BB3AFE200865211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9418B0372BB3AFE200865211 /* MyColorMemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyColorMemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9418B03B2BB3AFE200865211 /* MyColorMemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorMemoAppTests.swift; sourceTree = "<group>"; };
+		9418B0412BB3AFE200865211 /* MyColorMemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyColorMemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9418B0452BB3AFE200865211 /* MyColorMemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorMemoAppUITests.swift; sourceTree = "<group>"; };
+		9418B0472BB3AFE200865211 /* MyColorMemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorMemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9418B0542BB3B2AB00865211 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9418B0562BB9985000865211 /* MemoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDataModel.swift; sourceTree = "<group>"; };
+		9418B0582BBAE9E700865211 /* MemoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewController.swift; sourceTree = "<group>"; };
+		9483FAC12C45614300FBEEA7 /* MyColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorType.swift; sourceTree = "<group>"; };
+		9BD3F6328A338F3844E6B438 /* Pods-MyColorMemoApp-MyColorMemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyColorMemoApp-MyColorMemoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MyColorMemoApp-MyColorMemoAppUITests/Pods-MyColorMemoApp-MyColorMemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A2C1A38F94545123D4A82D0C /* Pods-MyColorMemoApp-MyColorMemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyColorMemoApp-MyColorMemoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyColorMemoApp-MyColorMemoAppUITests/Pods-MyColorMemoApp-MyColorMemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A63A87674026370AD250A644 /* Pods_MyColorMemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyColorMemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC909CAA61625612886D8E94 /* Pods_MyColorMemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyColorMemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0B2FFF3755342446B1FFF8 /* Pods-MyColorMemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyColorMemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MyColorMemoAppTests/Pods-MyColorMemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9418B01E2BB3AFE100865211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92654C6619CC59997B989DDC /* Pods_MyColorMemoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9418B0342BB3AFE200865211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03C47DB9FB966C97FB7D5C5 /* Pods_MyColorMemoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9418B03E2BB3AFE200865211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A6321CFEB5CFFFA9532C89 /* Pods_MyColorMemoApp_MyColorMemoAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49ED551D4F510EADFB5987A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A63A87674026370AD250A644 /* Pods_MyColorMemoApp.framework */,
+				620B3BF2CB275AA34AF7FEAC /* Pods_MyColorMemoApp_MyColorMemoAppUITests.framework */,
+				DC909CAA61625612886D8E94 /* Pods_MyColorMemoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9418B0182BB3AFE100865211 = {
+			isa = PBXGroup;
+			children = (
+				9418B0232BB3AFE100865211 /* MyColorMemoApp */,
+				9418B03A2BB3AFE200865211 /* MyColorMemoAppTests */,
+				9418B0442BB3AFE200865211 /* MyColorMemoAppUITests */,
+				9418B0222BB3AFE100865211 /* Products */,
+				D73FDFB1C315601527EFBC81 /* Pods */,
+				49ED551D4F510EADFB5987A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9418B0222BB3AFE100865211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9418B0212BB3AFE100865211 /* MyColorMemoApp.app */,
+				9418B0372BB3AFE200865211 /* MyColorMemoAppTests.xctest */,
+				9418B0412BB3AFE200865211 /* MyColorMemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9418B0232BB3AFE100865211 /* MyColorMemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				9418B0242BB3AFE100865211 /* AppDelegate.swift */,
+				9418B0262BB3AFE100865211 /* SceneDelegate.swift */,
+				9418B0542BB3B2AB00865211 /* HomeViewController.swift */,
+				9418B02A2BB3AFE100865211 /* Main.storyboard */,
+				9418B02D2BB3AFE200865211 /* Assets.xcassets */,
+				9418B02F2BB3AFE200865211 /* LaunchScreen.storyboard */,
+				9418B0322BB3AFE200865211 /* Info.plist */,
+				9418B0562BB9985000865211 /* MemoDataModel.swift */,
+				9418B0582BBAE9E700865211 /* MemoDetailViewController.swift */,
+				9483FAC12C45614300FBEEA7 /* MyColorType.swift */,
+			);
+			path = MyColorMemoApp;
+			sourceTree = "<group>";
+		};
+		9418B03A2BB3AFE200865211 /* MyColorMemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9418B03B2BB3AFE200865211 /* MyColorMemoAppTests.swift */,
+			);
+			path = MyColorMemoAppTests;
+			sourceTree = "<group>";
+		};
+		9418B0442BB3AFE200865211 /* MyColorMemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9418B0452BB3AFE200865211 /* MyColorMemoAppUITests.swift */,
+				9418B0472BB3AFE200865211 /* MyColorMemoAppUITestsLaunchTests.swift */,
+			);
+			path = MyColorMemoAppUITests;
+			sourceTree = "<group>";
+		};
+		D73FDFB1C315601527EFBC81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90DC1E7C3FBBF0751BB82D8F /* Pods-MyColorMemoApp.debug.xcconfig */,
+				6AFFA77CE88A987E35816BAD /* Pods-MyColorMemoApp.release.xcconfig */,
+				A2C1A38F94545123D4A82D0C /* Pods-MyColorMemoApp-MyColorMemoAppUITests.debug.xcconfig */,
+				9BD3F6328A338F3844E6B438 /* Pods-MyColorMemoApp-MyColorMemoAppUITests.release.xcconfig */,
+				FC0B2FFF3755342446B1FFF8 /* Pods-MyColorMemoAppTests.debug.xcconfig */,
+				04546341F161CA78A1F0A070 /* Pods-MyColorMemoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9418B0202BB3AFE100865211 /* MyColorMemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9418B04B2BB3AFE200865211 /* Build configuration list for PBXNativeTarget "MyColorMemoApp" */;
+			buildPhases = (
+				F1BBB236AEE26134AF4FED05 /* [CP] Check Pods Manifest.lock */,
+				9418B01D2BB3AFE100865211 /* Sources */,
+				9418B01E2BB3AFE100865211 /* Frameworks */,
+				9418B01F2BB3AFE100865211 /* Resources */,
+				07D2B8244C04E5D85B1C37A1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyColorMemoApp;
+			productName = MyColorMemoApp;
+			productReference = 9418B0212BB3AFE100865211 /* MyColorMemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9418B0362BB3AFE200865211 /* MyColorMemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9418B04E2BB3AFE200865211 /* Build configuration list for PBXNativeTarget "MyColorMemoAppTests" */;
+			buildPhases = (
+				73C4E1E92C5E1FDDDB634C61 /* [CP] Check Pods Manifest.lock */,
+				9418B0332BB3AFE200865211 /* Sources */,
+				9418B0342BB3AFE200865211 /* Frameworks */,
+				9418B0352BB3AFE200865211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9418B0392BB3AFE200865211 /* PBXTargetDependency */,
+			);
+			name = MyColorMemoAppTests;
+			productName = MyColorMemoAppTests;
+			productReference = 9418B0372BB3AFE200865211 /* MyColorMemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9418B0402BB3AFE200865211 /* MyColorMemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9418B0512BB3AFE200865211 /* Build configuration list for PBXNativeTarget "MyColorMemoAppUITests" */;
+			buildPhases = (
+				2A4A76580DF639F68FD44359 /* [CP] Check Pods Manifest.lock */,
+				9418B03D2BB3AFE200865211 /* Sources */,
+				9418B03E2BB3AFE200865211 /* Frameworks */,
+				9418B03F2BB3AFE200865211 /* Resources */,
+				398E6889CEA9E958E2E0F4E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9418B0432BB3AFE200865211 /* PBXTargetDependency */,
+			);
+			name = MyColorMemoAppUITests;
+			productName = MyColorMemoAppUITests;
+			productReference = 9418B0412BB3AFE200865211 /* MyColorMemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9418B0192BB3AFE100865211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9418B0202BB3AFE100865211 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9418B0362BB3AFE200865211 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9418B0202BB3AFE100865211;
+					};
+					9418B0402BB3AFE200865211 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9418B0202BB3AFE100865211;
+					};
+				};
+			};
+			buildConfigurationList = 9418B01C2BB3AFE100865211 /* Build configuration list for PBXProject "MyColorMemoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9418B0182BB3AFE100865211;
+			productRefGroup = 9418B0222BB3AFE100865211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9418B0202BB3AFE100865211 /* MyColorMemoApp */,
+				9418B0362BB3AFE200865211 /* MyColorMemoAppTests */,
+				9418B0402BB3AFE200865211 /* MyColorMemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9418B01F2BB3AFE100865211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9418B02E2BB3AFE200865211 /* Assets.xcassets in Resources */,
+				9418B0312BB3AFE200865211 /* Base in Resources */,
+				9418B02C2BB3AFE100865211 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9418B0352BB3AFE200865211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9418B03F2BB3AFE200865211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D2B8244C04E5D85B1C37A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyColorMemoApp/Pods-MyColorMemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyColorMemoApp/Pods-MyColorMemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyColorMemoApp/Pods-MyColorMemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A4A76580DF639F68FD44359 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyColorMemoApp-MyColorMemoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		398E6889CEA9E958E2E0F4E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyColorMemoApp-MyColorMemoAppUITests/Pods-MyColorMemoApp-MyColorMemoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyColorMemoApp-MyColorMemoAppUITests/Pods-MyColorMemoApp-MyColorMemoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyColorMemoApp-MyColorMemoAppUITests/Pods-MyColorMemoApp-MyColorMemoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73C4E1E92C5E1FDDDB634C61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyColorMemoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1BBB236AEE26134AF4FED05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyColorMemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9418B01D2BB3AFE100865211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9418B0592BBAE9E700865211 /* MemoDetailViewController.swift in Sources */,
+				9418B0252BB3AFE100865211 /* AppDelegate.swift in Sources */,
+				9418B0272BB3AFE100865211 /* SceneDelegate.swift in Sources */,
+				9418B0552BB3B2AB00865211 /* HomeViewController.swift in Sources */,
+				9418B0572BB9985000865211 /* MemoDataModel.swift in Sources */,
+				9483FAC22C45614300FBEEA7 /* MyColorType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9418B0332BB3AFE200865211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9418B03C2BB3AFE200865211 /* MyColorMemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9418B03D2BB3AFE200865211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9418B0482BB3AFE200865211 /* MyColorMemoAppUITestsLaunchTests.swift in Sources */,
+				9418B0462BB3AFE200865211 /* MyColorMemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9418B0392BB3AFE200865211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9418B0202BB3AFE100865211 /* MyColorMemoApp */;
+			targetProxy = 9418B0382BB3AFE200865211 /* PBXContainerItemProxy */;
+		};
+		9418B0432BB3AFE200865211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9418B0202BB3AFE100865211 /* MyColorMemoApp */;
+			targetProxy = 9418B0422BB3AFE200865211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9418B02A2BB3AFE100865211 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9418B02B2BB3AFE100865211 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9418B02F2BB3AFE200865211 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9418B0302BB3AFE200865211 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9418B0492BB3AFE200865211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9418B04A2BB3AFE200865211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9418B04C2BB3AFE200865211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DC1E7C3FBBF0751BB82D8F /* Pods-MyColorMemoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NF35UB3LM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyColorMemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-academia.MyColorMemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9418B04D2BB3AFE200865211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AFFA77CE88A987E35816BAD /* Pods-MyColorMemoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NF35UB3LM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyColorMemoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-academia.MyColorMemoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9418B04F2BB3AFE200865211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0B2FFF3755342446B1FFF8 /* Pods-MyColorMemoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NF35UB3LM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-academia.MyColorMemoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyColorMemoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyColorMemoApp";
+			};
+			name = Debug;
+		};
+		9418B0502BB3AFE200865211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04546341F161CA78A1F0A070 /* Pods-MyColorMemoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NF35UB3LM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-academia.MyColorMemoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyColorMemoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyColorMemoApp";
+			};
+			name = Release;
+		};
+		9418B0522BB3AFE200865211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2C1A38F94545123D4A82D0C /* Pods-MyColorMemoApp-MyColorMemoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NF35UB3LM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-academia.MyColorMemoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyColorMemoApp;
+			};
+			name = Debug;
+		};
+		9418B0532BB3AFE200865211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD3F6328A338F3844E6B438 /* Pods-MyColorMemoApp-MyColorMemoAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NF35UB3LM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-academia.MyColorMemoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyColorMemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9418B01C2BB3AFE100865211 /* Build configuration list for PBXProject "MyColorMemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9418B0492BB3AFE200865211 /* Debug */,
+				9418B04A2BB3AFE200865211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9418B04B2BB3AFE200865211 /* Build configuration list for PBXNativeTarget "MyColorMemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9418B04C2BB3AFE200865211 /* Debug */,
+				9418B04D2BB3AFE200865211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9418B04E2BB3AFE200865211 /* Build configuration list for PBXNativeTarget "MyColorMemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9418B04F2BB3AFE200865211 /* Debug */,
+				9418B0502BB3AFE200865211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9418B0512BB3AFE200865211 /* Build configuration list for PBXNativeTarget "MyColorMemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9418B0522BB3AFE200865211 /* Debug */,
+				9418B0532BB3AFE200865211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9418B0192BB3AFE100865211 /* Project object */;
+}
